@@ -1,0 +1,30 @@
+--- Log avviato 22/04/2025 18:01:28 ---
+[18:01:28.324] Applicazione avviata con 4 metà per colore
+[18:01:28.383] Inizializzate 12 uova con colori casuali
+[18:01:28.403] Inizializzate 12 uova
+[18:01:28.417] Form ridimensionato a 978x600
+[18:01:28.417] Inizializzate 12 uova con colori casuali
+[18:01:28.429] Inizializzate 12 uova
+[18:01:28.439] Form ridimensionato a 978x600
+[18:01:33.063] Avviata elaborazione
+[18:01:34.087] Provo uovo Rosa/Arancione, rimanenti: 11
+[18:01:34.472] Richiesto arresto dell'elaborazione
+[18:01:34.608] Operazione interrotta dall'utente. Movimenti: 1, Backtrack: 0
+[18:01:37.577] Inizializzate 12 uova con colori casuali
+[18:01:37.591] Reset effettuato
+[18:01:38.629] Inizializzate 12 uova con colori casuali
+[18:01:38.652] Reset effettuato
+[18:01:38.997] Inizializzate 12 uova con colori casuali
+[18:01:39.012] Reset effettuato
+[18:01:39.409] Inizializzate 12 uova con colori casuali
+[18:01:39.431] Reset effettuato
+[18:01:39.793] Inizializzate 12 uova con colori casuali
+[18:01:39.809] Reset effettuato
+[18:01:40.033] Inizializzate 12 uova con colori casuali
+[18:01:40.050] Reset effettuato
+[18:01:40.222] Inizializzate 12 uova con colori casuali
+[18:01:40.238] Reset effettuato
+[18:01:41.873] Inizializzate 12 uova con colori casuali
+[18:01:41.898] Reset effettuato
+[18:01:43.341] Inizializzate 12 uova con colori casuali
+[18:01:43.354] Reset effettuato

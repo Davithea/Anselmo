@@ -3,7 +3,6 @@ C:\Users\david\Documents\COMPITI\INFORMATICA\QUARTA\Anselmo\Anselmo\bin\Debug\ne
 C:\Users\david\Documents\COMPITI\INFORMATICA\QUARTA\Anselmo\Anselmo\bin\Debug\net8.0-windows\Anselmo.runtimeconfig.json
 C:\Users\david\Documents\COMPITI\INFORMATICA\QUARTA\Anselmo\Anselmo\bin\Debug\net8.0-windows\Anselmo.dll
 C:\Users\david\Documents\COMPITI\INFORMATICA\QUARTA\Anselmo\Anselmo\bin\Debug\net8.0-windows\Anselmo.pdb
-C:\Users\david\Documents\COMPITI\INFORMATICA\QUARTA\Anselmo\Anselmo\obj\Debug\net8.0-windows\Anselmo.Form1.resources
 C:\Users\david\Documents\COMPITI\INFORMATICA\QUARTA\Anselmo\Anselmo\obj\Debug\net8.0-windows\Anselmo.csproj.GenerateResource.cache
 C:\Users\david\Documents\COMPITI\INFORMATICA\QUARTA\Anselmo\Anselmo\obj\Debug\net8.0-windows\Anselmo.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\david\Documents\COMPITI\INFORMATICA\QUARTA\Anselmo\Anselmo\obj\Debug\net8.0-windows\Anselmo.AssemblyInfoInputs.cache
@@ -15,3 +14,7 @@ C:\Users\david\Documents\COMPITI\INFORMATICA\QUARTA\Anselmo\Anselmo\obj\Debug\ne
 C:\Users\david\Documents\COMPITI\INFORMATICA\QUARTA\Anselmo\Anselmo\obj\Debug\net8.0-windows\Anselmo.pdb
 C:\Users\david\Documents\COMPITI\INFORMATICA\QUARTA\Anselmo\Anselmo\obj\Debug\net8.0-windows\Anselmo.genruntimeconfig.cache
 C:\Users\david\Documents\COMPITI\INFORMATICA\QUARTA\Anselmo\Anselmo\obj\Debug\net8.0-windows\ref\Anselmo.dll
+C:\Users\david\Documents\COMPITI\INFORMATICA\QUARTA\Anselmo\Anselmo\obj\Debug\net8.0-windows\Anselmo.Form1.resources
+C:\Users\david\Documents\COMPITI\INFORMATICA\QUARTA\Anselmo\Anselmo\obj\Debug\net8.0-windows\Anselmo.Logger.resources
+C:\Users\david\Documents\COMPITI\INFORMATICA\QUARTA\Anselmo\Anselmo\obj\Debug\net8.0-windows\Anselmo.Properties.Resources.resources
+C:\Users\david\Documents\COMPITI\INFORMATICA\QUARTA\Anselmo\Anselmo\obj\Debug\net8.0-windows\Anselmo.FormStart.resources

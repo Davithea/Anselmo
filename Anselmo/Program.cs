@@ -8,10 +8,12 @@ namespace Anselmo
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
-            ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+
+            FormStart formStart = new FormStart();  //Avvio dell'applicazione con la creazione di un nuovo FormStart
+
+            Application.Run(formStart); //Avvio l'applicazione con FormStart come form principale
         }
     }
 }
