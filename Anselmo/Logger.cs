@@ -1,48 +1,37 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Text;
 
 namespace Anselmo
 {
-    public partial class Logger : Form
+    public partial class Logger : Form  //Classe per la gestione del logger
     {
-        private static StringBuilder logBuffer = new StringBuilder();
-        private static Form logForm;
-        private static RichTextBox logTextBox;
-        private static string logFilePath = "Log.txt";
-        private static EventHandler<string> logEventHandler;
+        private static StringBuilder logBuffer = new StringBuilder();   //Definisco un buffer per gestire il log
+        private static Form logForm;    //Creo un nuoco Form di log
+        private static RichTextBox logTextBox;  //Definisco una textBox in cui verranno scritte le informazioni
+        private static string logFilePath = "Log.txt";  //Creo un file di testo per salvare le infromazioni di log
+        private static EventHandler<string> logEventHandler;    //Creo un evento da associare al log
 
-        // Evento che notifica quando un nuovo log viene aggiunto
-        public static event EventHandler<string> LogAdded;
+        public static event EventHandler<string> LogAdded;  //Creo un evento che notifica quando un nuovo log viene aggiunto
 
-        public Logger()
+        public Logger() //Costruttore di default per il logger
         {
-            InitializeComponent();
-            ShowLogForm();
+            InitializeComponent();  //Vedi Logger.Desginer.cs per ulteriori informazioni
         }
 
-        public static void Initialize()
+        //Metodo che inizializza il file di log
+        public static void Inizializza()
         {
-            // Crea o sovrascrive il file di log
-            File.WriteAllText(logFilePath, "--- Log avviato " + DateTime.Now.ToString() + " ---\r\n");
+            File.WriteAllText(logFilePath, "--- Log avviato " + DateTime.Now.ToString() + " ---\r\n");  //Creo o sovrascrivo il file di log
         }
 
+        //Metodo che permette di scrivere un messaggio nel logger
         public static void Log(string message)
         {
-            string timeStamp = DateTime.Now.ToString("HH:mm:ss.fff");
-            string logMessage = $"[{timeStamp}] {message}";
+            string timeStamp = DateTime.Now.ToString("HH:mm:ss.fff");   //Scrivo l'ora in cui è stato scritto il messaggio
+            string logMessage = $"[{timeStamp}] {message}"; //Imposto il layout del messaggio
 
-            // Aggiungi al buffer
-            logBuffer.AppendLine(logMessage);
+            logBuffer.AppendLine(logMessage);   //Aggiung al buffer il messaggio
 
-            // Scrivi al file
+            //Scrivo nel file di testo gestendo l'errore
             try
             {
                 File.AppendAllText(logFilePath, logMessage + Environment.NewLine);
@@ -52,25 +41,7 @@ namespace Anselmo
                 Console.WriteLine($"Errore nella scrittura del log: {ex.Message}");
             }
 
-            // Notifica i listener
-            LogAdded?.Invoke(null, logMessage);
-        }
-
-        private static void AppendLog(string log)
-        {
-            try
-            {
-                if (logTextBox != null && !logTextBox.IsDisposed)
-                {
-                    logTextBox.AppendText(log + Environment.NewLine);
-                    logTextBox.SelectionStart = logTextBox.Text.Length;
-                    logTextBox.ScrollToCaret();
-                }
-            }
-            catch (ObjectDisposedException)
-            {
-                // Ignora se l'oggetto è già stato eliminato
-            }
+            LogAdded?.Invoke(null, logMessage); //Informo di aver scritto sul logger
         }
     }
 }

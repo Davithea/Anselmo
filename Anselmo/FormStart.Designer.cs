@@ -1,6 +1,4 @@
-﻿using System.Windows.Forms;
-
-namespace Anselmo
+﻿namespace Anselmo
 {
     partial class FormStart
     {

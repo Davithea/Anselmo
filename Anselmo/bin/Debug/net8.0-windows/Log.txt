@@ -1,30 +1,94 @@
---- Log avviato 22/04/2025 18:01:28 ---
-[18:01:28.324] Applicazione avviata con 4 metà per colore
-[18:01:28.383] Inizializzate 12 uova con colori casuali
-[18:01:28.403] Inizializzate 12 uova
-[18:01:28.417] Form ridimensionato a 978x600
-[18:01:28.417] Inizializzate 12 uova con colori casuali
-[18:01:28.429] Inizializzate 12 uova
-[18:01:28.439] Form ridimensionato a 978x600
-[18:01:33.063] Avviata elaborazione
-[18:01:34.087] Provo uovo Rosa/Arancione, rimanenti: 11
-[18:01:34.472] Richiesto arresto dell'elaborazione
-[18:01:34.608] Operazione interrotta dall'utente. Movimenti: 1, Backtrack: 0
-[18:01:37.577] Inizializzate 12 uova con colori casuali
-[18:01:37.591] Reset effettuato
-[18:01:38.629] Inizializzate 12 uova con colori casuali
-[18:01:38.652] Reset effettuato
-[18:01:38.997] Inizializzate 12 uova con colori casuali
-[18:01:39.012] Reset effettuato
-[18:01:39.409] Inizializzate 12 uova con colori casuali
-[18:01:39.431] Reset effettuato
-[18:01:39.793] Inizializzate 12 uova con colori casuali
-[18:01:39.809] Reset effettuato
-[18:01:40.033] Inizializzate 12 uova con colori casuali
-[18:01:40.050] Reset effettuato
-[18:01:40.222] Inizializzate 12 uova con colori casuali
-[18:01:40.238] Reset effettuato
-[18:01:41.873] Inizializzate 12 uova con colori casuali
-[18:01:41.898] Reset effettuato
-[18:01:43.341] Inizializzate 12 uova con colori casuali
-[18:01:43.354] Reset effettuato
+--- Log avviato 24/04/2025 12:12:28 ---
+[12:12:28.097] Applicazione avviata con 4 metà per colore
+[12:12:28.185] Inizializzate 12 uova con colori casuali
+[12:12:28.250] Inizializzate 12 uova
+[12:12:28.284] Form ridimensionato a 978x600
+[12:12:29.655] Inizializzate 12 uova con colori casuali
+[12:12:29.703] Reset effettuato
+[12:12:30.283] Inizializzate 12 uova con colori casuali
+[12:12:30.323] Reset effettuato
+[12:12:30.439] Inizializzate 12 uova con colori casuali
+[12:12:30.485] Reset effettuato
+[12:12:31.252] Richiesto arresto dell'elaborazione
+[12:12:35.561] Richiesto arresto dell'elaborazione
+[12:12:36.797] Avviata elaborazione
+[12:12:37.883] Provo uovo Rosa/Arancione, rimanenti: 11
+[12:12:38.962] Richiesto arresto dell'elaborazione
+[12:12:39.476] Backtrack - rimozione uovo Rosa/Arancione
+[12:12:39.477] Provo uovo Viola/Viola, rimanenti: 11
+[12:12:40.025] Operazione interrotta dall'utente. Movimenti: 2, Backtrack: 1
+[12:12:41.735] Avviata elaborazione
+[12:12:42.784] Provo uovo Rosa/Arancione, rimanenti: 11
+[12:12:44.386] Scartato uovo Viola/Viola - colori non compatibili
+[12:12:44.387] Scartato uovo Verde/Verde - colori non compatibili
+[12:12:44.388] Scartato uovo Giallo/Giallo - colori non compatibili
+[12:12:44.389] Provo uovo Rosa/Giallo, rimanenti: 10
+[12:12:45.986] Scartato uovo Viola/Viola - colori non compatibili
+[12:12:45.987] Scartato uovo Verde/Verde - colori non compatibili
+[12:12:45.987] Provo uovo Giallo/Giallo, rimanenti: 9
+[12:12:47.584] Scartato uovo Viola/Viola - colori non compatibili
+[12:12:47.585] Scartato uovo Verde/Verde - colori non compatibili
+[12:12:47.586] Scartato uovo Viola/Verde - colori non compatibili
+[12:12:47.586] Scartato uovo Rosa/Arancione - colori non compatibili
+[12:12:47.587] Provo uovo Azzurro/Giallo, rimanenti: 8
+[12:12:48.628] Velocità impostata a 963 ms
+[12:12:48.637] Velocità impostata a 894 ms
+[12:12:48.640] Velocità impostata a 860 ms
+[12:12:48.644] Velocità impostata a 790 ms
+[12:12:48.648] Velocità impostata a 687 ms
+[12:12:48.655] Velocità impostata a 583 ms
+[12:12:48.656] Velocità impostata a 411 ms
+[12:12:48.660] Velocità impostata a 135 ms
+[12:12:48.664] Velocità impostata a 100 ms
+[12:12:49.174] Scartato uovo Viola/Viola - colori non compatibili
+[12:12:49.175] Scartato uovo Verde/Verde - colori non compatibili
+[12:12:49.176] Scartato uovo Viola/Verde - colori non compatibili
+[12:12:49.176] Scartato uovo Rosa/Arancione - colori non compatibili
+[12:12:49.177] Provo uovo Viola/Azzurro, rimanenti: 7
+[12:12:49.432] Provo uovo Viola/Viola, rimanenti: 6
+[12:12:49.657] Scartato uovo Verde/Verde - colori non compatibili
+[12:12:49.657] Provo uovo Viola/Verde, rimanenti: 5
+[12:12:49.909] Provo uovo Verde/Verde, rimanenti: 4
+[12:12:50.176] Scartato uovo Rosa/Arancione - colori non compatibili
+[12:12:50.178] Scartato uovo Azzurro/Arancione - colori non compatibili
+[12:12:50.179] Provo uovo Arancione/Verde, rimanenti: 3
+[12:12:50.424] Provo uovo Rosa/Arancione, rimanenti: 2
+[12:12:50.705] Provo uovo Azzurro/Arancione, rimanenti: 1
+[12:12:50.960] Provo uovo Rosa/Azzurro, rimanenti: 0
+[12:12:51.230] Soluzione trovata! Tutte le 12 uova piazzate correttamente
+[12:12:51.232] Sequenza completata! Movimenti: 12, Backtrack: 0
+[12:12:54.905] Form ridimensionato a 1552x832
+[12:12:54.957] Form ridimensionato a 1552x832
+[12:12:58.175] Avviata elaborazione
+[12:12:58.351] Provo uovo Rosa/Arancione, rimanenti: 11
+[12:12:58.584] Scartato uovo Viola/Viola - colori non compatibili
+[12:12:58.585] Scartato uovo Verde/Verde - colori non compatibili
+[12:12:58.586] Scartato uovo Giallo/Giallo - colori non compatibili
+[12:12:58.586] Provo uovo Rosa/Giallo, rimanenti: 10
+[12:12:58.806] Scartato uovo Viola/Viola - colori non compatibili
+[12:12:58.807] Scartato uovo Verde/Verde - colori non compatibili
+[12:12:58.807] Provo uovo Giallo/Giallo, rimanenti: 9
+[12:12:59.055] Scartato uovo Viola/Viola - colori non compatibili
+[12:12:59.056] Scartato uovo Verde/Verde - colori non compatibili
+[12:12:59.057] Scartato uovo Viola/Verde - colori non compatibili
+[12:12:59.058] Scartato uovo Rosa/Arancione - colori non compatibili
+[12:12:59.058] Provo uovo Azzurro/Giallo, rimanenti: 8
+[12:12:59.275] Scartato uovo Viola/Viola - colori non compatibili
+[12:12:59.276] Scartato uovo Verde/Verde - colori non compatibili
+[12:12:59.276] Scartato uovo Viola/Verde - colori non compatibili
+[12:12:59.276] Scartato uovo Rosa/Arancione - colori non compatibili
+[12:12:59.277] Provo uovo Viola/Azzurro, rimanenti: 7
+[12:12:59.486] Provo uovo Viola/Viola, rimanenti: 6
+[12:12:59.735] Scartato uovo Verde/Verde - colori non compatibili
+[12:12:59.736] Provo uovo Viola/Verde, rimanenti: 5
+[12:12:59.961] Provo uovo Verde/Verde, rimanenti: 4
+[12:13:00.188] Scartato uovo Rosa/Arancione - colori non compatibili
+[12:13:00.189] Scartato uovo Azzurro/Arancione - colori non compatibili
+[12:13:00.190] Provo uovo Arancione/Verde, rimanenti: 3
+[12:13:00.454] Provo uovo Rosa/Arancione, rimanenti: 2
+[12:13:00.681] Provo uovo Azzurro/Arancione, rimanenti: 1
+[12:13:00.898] Provo uovo Rosa/Azzurro, rimanenti: 0
+[12:13:01.146] Soluzione trovata! Tutte le 12 uova piazzate correttamente
+[12:13:01.147] Sequenza completata! Movimenti: 12, Backtrack: 0
+[12:13:04.058] Form ridimensionato a 978x600
+[12:13:04.151] Form ridimensionato a 978x600

@@ -1,107 +1,108 @@
-﻿public class CUovo : Control
+﻿public class CUovo : Control    //Eredita da Control per gestire la grafica
 {
-    public string Colore1 { get; set; }
-    public string Colore2 { get; set; }
-    public Guid Id { get; private set; } // ID unico per identificare ciascuna uova
+    private string mColore1;    //Attributo che indica il primo colore
+    private string mColore2;    //Attributo che indica il secondo colore
+    private Guid mID;   //Identificatore unico per l'uovo
 
-    // Dimensioni base dell'uovo
-    private const int BASE_WIDTH = 70;
-    private const int BASE_HEIGHT = 90;
+    //Property pubbliche 
+    public string Colore1 { get { return mColore1; } set { mColore1 = value; } } 
+    public string Colore2 { get { return mColore2; } set { mColore2 = value; } }
+    public Guid Id { get { return mID; } set { mID = value; } }
 
-    // Fattore di scala attuale
-    private float scaleFactor = 1.0f;
+    //Definizione delle dimenzioni di base dell'uovo
+    private const int LARGHEZZA_BASE = 70;
+    private const int ALTEZZA_BASE = 90;
 
-    public CUovo(string colore1, string colore2, float scale = 1.0f)
+    private float fattoreDiScala = 1.0f;   //Definizione di un fattore di scala
+
+    public CUovo(string colore1, string colore2, float fattoreScala = 1.0f)    //Costruttore per l'uovo
     {
-        Colore1 = colore1;
-        Colore2 = colore2;
-        Id = Guid.NewGuid(); // Assegna un ID unico
+        Colore1 = colore1;  //Associo all'uovo il colore1
+        Colore2 = colore2;  //Associo all'uovo il colore2
+        Id = Guid.NewGuid(); //Assegno all'uovo un ID unico
 
-        // Imposta le dimensioni in base al fattore di scala
-        SetScale(scale);
-        DoubleBuffered = true; // Evita lo sfarfallio durante il ridisegno
+        SetScale(fattoreScala);    //Imposto le dimensioni in base al fattore di scala attuale
+        DoubleBuffered = true;  //Evito lo sfarfallio quando viene ridisegnato
     }
 
-    // Metodo per impostare la scala dell'uovo
-    public void SetScale(float scale)
+    //Metodo per impostare la dimesnione dell'uovo in base al fattore di scala
+    public void SetScale(float fattoreScala)
     {
-        scaleFactor = scale;
-        Width = (int)(BASE_WIDTH * scale);
-        Height = (int)(BASE_HEIGHT * scale);
-        Invalidate(); // Richiede il ridisegno del controllo
+        fattoreDiScala = fattoreScala;  //Salvo il nuovo fattore di scala   
+        Width = (int)(LARGHEZZA_BASE * fattoreScala);   //Modifico la larghezza in base al nuovo fattore di scala
+        Height = (int)(ALTEZZA_BASE * fattoreScala);    //Modifico l'altezza in base al nuovo fattore di scala
+        Invalidate();   //Richiedo il ridisegno del controllo
     }
 
-    // Metodo per verificare se ha un colore in comune con un altro uovo
+    //Metodo per verificare se un uovo ha un colore in comune con un altro uovo
     public bool HaColoreInComune(CUovo altroUovo)
     {
         return Colore1 == altroUovo.Colore1 ||
                Colore1 == altroUovo.Colore2 ||
                Colore2 == altroUovo.Colore1 ||
-               Colore2 == altroUovo.Colore2;
+               Colore2 == altroUovo.Colore2;    //Controllo caso per caso se ci sono due colori corrispondenti
     }
 
-    // Necessari per confrontare l'identità degli oggetti, non solo i colori
+    //Ridefinizione di Equals per confrontare gli ID di due uova, non i colori
     public override bool Equals(object obj)
     {
-        if (obj is CUovo altro)
+        if (obj is CUovo altro) //Se l'oggeto parametro è un uovo chiamato altro
         {
-            return Id == altro.Id; // Confronta gli ID, non i colori
+            return Id == altro.Id; //Ritorno true se l'ID dell'altro uovo corrisponde all'ID del mio uovo
         }
-        return false;
+        return false;   //Altrimenti ritorno false
     }
 
+    //Ridefinisco la funzione GetHashCode
     public override int GetHashCode()
     {
-        return Id.GetHashCode(); // Usa l'ID per il calcolo dell'hash
+        return Id.GetHashCode(); //Uso l'ID dell'uovo per il calcolo dell'hash
     }
 
+    //Metodo per disegnare fisicamente le uova nel form
     protected override void OnPaint(PaintEventArgs e)
     {
-        base.OnPaint(e);
-        Graphics g = e.Graphics;
-        g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+        base.OnPaint(e);    //Chiamo il metodo OnPaint della classe Control per mantenere il comportamento standard
+        Graphics g = e.Graphics;    //Ottengo l'oggetto Graphics dal PaintEventArgs per disegnare
+        g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias; //Imposto l'antialiasing per avere bordi più morbidi e grafica migliore
 
-        // Calcola le dimensioni scalate dell'uovo
-        int eggWidth = (int)(Width - 10 * scaleFactor);
-        int eggHeight = (int)(Height - 20 * scaleFactor);
-        float borderWidth = 1.5f * scaleFactor;
-        float dividerWidth = 0.5f * scaleFactor;
-        float fontSize = 7 * scaleFactor;
+        int eggWidth = (int)(Width - 10 * fattoreDiScala);  //Calcolo la larghezza dell'uovo tenendo conto del fattore di scala
+        int eggHeight = (int)(Height - 20 * fattoreDiScala);    //Calcolo l'altezza dell'uovo tenendo conto del fattore di scala
+        float borderWidth = 1.5f * fattoreDiScala;  //Definisco lo spessore del bordo dell'uovo proporzionalmente al fattore di scala
+        float dividerWidth = 0.5f * fattoreDiScala; //Definisco lo spessore della linea divisoria tra i due colori sempre tenendo conto del fattore di scala
+        Pen Penna;  //Dichiaro una variabile Pen che userò per disegnare i bordi
+        Brush Brush;    //Dichiaro una variabile Brush che userò per colorare l'uovo
 
-        // Disegna la forma dell'uovo
-        using (var path = new System.Drawing.Drawing2D.GraphicsPath())
+        using (System.Drawing.Drawing2D.GraphicsPath Path = new System.Drawing.Drawing2D.GraphicsPath())    //Creo un blocco using per assicurarmi che il persorso venga correttamente eliminato dopo l'uso
         {
-            // Crea forma ovale dell'uovo (leggermente più stretta in alto)
-            path.AddEllipse(5 * scaleFactor, 10 * scaleFactor, eggWidth, eggHeight);
 
-            // Colore primario per la parte superiore
-            using (var brush = new SolidBrush(ColorFromName(Colore1)))
+            Path.AddEllipse(5 * fattoreDiScala, 10 * fattoreDiScala, eggWidth, eggHeight);  //Aggiungo un'ellisse (un po' schiacciato) al percorso per creare la forma dell'uovo
+
+            using (Brush = new SolidBrush(ColorFromName(Colore1)))  //Creo un blocco using per colorare la prima parte
             {
-                g.FillPath(brush, path);
+                g.FillPath(Brush, Path);    //Riempio tutto l'uovo con il primo colore
+            }
+            
+            using (Brush = new SolidBrush(ColorFromName(Colore2)))  //Creo un blocco using per colorare la seconda parte
+            {
+                g.SetClip(new Rectangle(0, Height / 2, Width, Height / 2)); //Imposto un'area di ritaglio per la metà inferiore dell'uovo
+                g.FillPath(Brush, Path);    //Riempio l'uovo con il secondo colore, ma sarà visibile solo nella metà inferiore
+                g.ResetClip();  //Resetto l'area di ritaglio per poter disegnare di nuovo su tutta l'area
             }
 
-            // Colore secondario per la parte inferiore
-            using (var brush = new SolidBrush(ColorFromName(Colore2)))
+            using (Penna = new Pen(Color.Black, borderWidth))   //Creo un blocco using per disegnare il bordo
             {
-                g.SetClip(new Rectangle(0, Height / 2, Width, Height / 2));
-                g.FillPath(brush, path);
-                g.ResetClip();
+                g.DrawPath(Penna, Path);    //Disegno il bordo attorno all'uovo
             }
 
-            // Bordo dell'uovo
-            using (var pen = new Pen(Color.Black, borderWidth))
+            using (Penna = new Pen(Color.Black, dividerWidth))  //Creo un blocco using per disegnare la linea di separazione tra i due colore
             {
-                g.DrawPath(pen, path);
-            }
-
-            // Linea divisoria tra i due colori
-            using (var pen = new Pen(Color.Black, dividerWidth))
-            {
-                g.DrawLine(pen, 5 * scaleFactor, Height / 2, Width - 5 * scaleFactor, Height / 2);
+                g.DrawLine(Penna, 5 * fattoreDiScala, Height / 2, Width - 5 * fattoreDiScala, Height / 2);  //Disegno una linea orizzontale che divide i due colori dell'uovo
             }
         }
     }
 
+    //Metodo che associa il colore reale ad un nome di riferimento (perché i colori scelti non sono standard)
     private Color ColorFromName(string nome)
     {
         return nome switch
@@ -112,7 +113,7 @@
             "Verde" => ColorTranslator.FromHtml("#749951"),
             "Azzurro" => ColorTranslator.FromHtml("#dee4ff"),
             "Arancione" => ColorTranslator.FromHtml("#ff9c7e"),
-            _ => Color.Gray,
+            _ => Color.White
         };
     }
 }
