@@ -1,94 +1,641 @@
---- Log avviato 24/04/2025 12:12:28 ---
-[12:12:28.097] Applicazione avviata con 4 metà per colore
-[12:12:28.185] Inizializzate 12 uova con colori casuali
-[12:12:28.250] Inizializzate 12 uova
-[12:12:28.284] Form ridimensionato a 978x600
-[12:12:29.655] Inizializzate 12 uova con colori casuali
-[12:12:29.703] Reset effettuato
-[12:12:30.283] Inizializzate 12 uova con colori casuali
-[12:12:30.323] Reset effettuato
-[12:12:30.439] Inizializzate 12 uova con colori casuali
-[12:12:30.485] Reset effettuato
-[12:12:31.252] Richiesto arresto dell'elaborazione
-[12:12:35.561] Richiesto arresto dell'elaborazione
-[12:12:36.797] Avviata elaborazione
-[12:12:37.883] Provo uovo Rosa/Arancione, rimanenti: 11
-[12:12:38.962] Richiesto arresto dell'elaborazione
-[12:12:39.476] Backtrack - rimozione uovo Rosa/Arancione
-[12:12:39.477] Provo uovo Viola/Viola, rimanenti: 11
-[12:12:40.025] Operazione interrotta dall'utente. Movimenti: 2, Backtrack: 1
-[12:12:41.735] Avviata elaborazione
-[12:12:42.784] Provo uovo Rosa/Arancione, rimanenti: 11
-[12:12:44.386] Scartato uovo Viola/Viola - colori non compatibili
-[12:12:44.387] Scartato uovo Verde/Verde - colori non compatibili
-[12:12:44.388] Scartato uovo Giallo/Giallo - colori non compatibili
-[12:12:44.389] Provo uovo Rosa/Giallo, rimanenti: 10
-[12:12:45.986] Scartato uovo Viola/Viola - colori non compatibili
-[12:12:45.987] Scartato uovo Verde/Verde - colori non compatibili
-[12:12:45.987] Provo uovo Giallo/Giallo, rimanenti: 9
-[12:12:47.584] Scartato uovo Viola/Viola - colori non compatibili
-[12:12:47.585] Scartato uovo Verde/Verde - colori non compatibili
-[12:12:47.586] Scartato uovo Viola/Verde - colori non compatibili
-[12:12:47.586] Scartato uovo Rosa/Arancione - colori non compatibili
-[12:12:47.587] Provo uovo Azzurro/Giallo, rimanenti: 8
-[12:12:48.628] Velocità impostata a 963 ms
-[12:12:48.637] Velocità impostata a 894 ms
-[12:12:48.640] Velocità impostata a 860 ms
-[12:12:48.644] Velocità impostata a 790 ms
-[12:12:48.648] Velocità impostata a 687 ms
-[12:12:48.655] Velocità impostata a 583 ms
-[12:12:48.656] Velocità impostata a 411 ms
-[12:12:48.660] Velocità impostata a 135 ms
-[12:12:48.664] Velocità impostata a 100 ms
-[12:12:49.174] Scartato uovo Viola/Viola - colori non compatibili
-[12:12:49.175] Scartato uovo Verde/Verde - colori non compatibili
-[12:12:49.176] Scartato uovo Viola/Verde - colori non compatibili
-[12:12:49.176] Scartato uovo Rosa/Arancione - colori non compatibili
-[12:12:49.177] Provo uovo Viola/Azzurro, rimanenti: 7
-[12:12:49.432] Provo uovo Viola/Viola, rimanenti: 6
-[12:12:49.657] Scartato uovo Verde/Verde - colori non compatibili
-[12:12:49.657] Provo uovo Viola/Verde, rimanenti: 5
-[12:12:49.909] Provo uovo Verde/Verde, rimanenti: 4
-[12:12:50.176] Scartato uovo Rosa/Arancione - colori non compatibili
-[12:12:50.178] Scartato uovo Azzurro/Arancione - colori non compatibili
-[12:12:50.179] Provo uovo Arancione/Verde, rimanenti: 3
-[12:12:50.424] Provo uovo Rosa/Arancione, rimanenti: 2
-[12:12:50.705] Provo uovo Azzurro/Arancione, rimanenti: 1
-[12:12:50.960] Provo uovo Rosa/Azzurro, rimanenti: 0
-[12:12:51.230] Soluzione trovata! Tutte le 12 uova piazzate correttamente
-[12:12:51.232] Sequenza completata! Movimenti: 12, Backtrack: 0
-[12:12:54.905] Form ridimensionato a 1552x832
-[12:12:54.957] Form ridimensionato a 1552x832
-[12:12:58.175] Avviata elaborazione
-[12:12:58.351] Provo uovo Rosa/Arancione, rimanenti: 11
-[12:12:58.584] Scartato uovo Viola/Viola - colori non compatibili
-[12:12:58.585] Scartato uovo Verde/Verde - colori non compatibili
-[12:12:58.586] Scartato uovo Giallo/Giallo - colori non compatibili
-[12:12:58.586] Provo uovo Rosa/Giallo, rimanenti: 10
-[12:12:58.806] Scartato uovo Viola/Viola - colori non compatibili
-[12:12:58.807] Scartato uovo Verde/Verde - colori non compatibili
-[12:12:58.807] Provo uovo Giallo/Giallo, rimanenti: 9
-[12:12:59.055] Scartato uovo Viola/Viola - colori non compatibili
-[12:12:59.056] Scartato uovo Verde/Verde - colori non compatibili
-[12:12:59.057] Scartato uovo Viola/Verde - colori non compatibili
-[12:12:59.058] Scartato uovo Rosa/Arancione - colori non compatibili
-[12:12:59.058] Provo uovo Azzurro/Giallo, rimanenti: 8
-[12:12:59.275] Scartato uovo Viola/Viola - colori non compatibili
-[12:12:59.276] Scartato uovo Verde/Verde - colori non compatibili
-[12:12:59.276] Scartato uovo Viola/Verde - colori non compatibili
-[12:12:59.276] Scartato uovo Rosa/Arancione - colori non compatibili
-[12:12:59.277] Provo uovo Viola/Azzurro, rimanenti: 7
-[12:12:59.486] Provo uovo Viola/Viola, rimanenti: 6
-[12:12:59.735] Scartato uovo Verde/Verde - colori non compatibili
-[12:12:59.736] Provo uovo Viola/Verde, rimanenti: 5
-[12:12:59.961] Provo uovo Verde/Verde, rimanenti: 4
-[12:13:00.188] Scartato uovo Rosa/Arancione - colori non compatibili
-[12:13:00.189] Scartato uovo Azzurro/Arancione - colori non compatibili
-[12:13:00.190] Provo uovo Arancione/Verde, rimanenti: 3
-[12:13:00.454] Provo uovo Rosa/Arancione, rimanenti: 2
-[12:13:00.681] Provo uovo Azzurro/Arancione, rimanenti: 1
-[12:13:00.898] Provo uovo Rosa/Azzurro, rimanenti: 0
-[12:13:01.146] Soluzione trovata! Tutte le 12 uova piazzate correttamente
-[12:13:01.147] Sequenza completata! Movimenti: 12, Backtrack: 0
-[12:13:04.058] Form ridimensionato a 978x600
-[12:13:04.151] Form ridimensionato a 978x600
+--- Log avviato 05/05/2025 13:17:23 ---
+[13:17:23.460] Applicazione avviata con 6 metà per colore
+[13:17:23.530] Inizializzate 18 uova con colori casuali
+[13:17:23.575] Inizializzate 18 uova
+[13:17:23.614] Form ridimensionato a 978x600
+[13:17:29.222] Avviata elaborazione
+[13:17:30.269] Velocità impostata a 1300 ms
+[13:17:30.274] Provo uovo Giallo/Rosa, rimanenti: 17
+[13:17:31.120] Velocità impostata a 1274 ms
+[13:17:31.124] Velocità impostata a 1239 ms
+[13:17:31.128] Velocità impostata a 1205 ms
+[13:17:31.131] Velocità impostata a 1101 ms
+[13:17:31.136] Velocità impostata a 998 ms
+[13:17:31.140] Velocità impostata a 860 ms
+[13:17:31.144] Velocità impostata a 721 ms
+[13:17:31.148] Velocità impostata a 583 ms
+[13:17:31.152] Velocità impostata a 411 ms
+[13:17:31.156] Velocità impostata a 307 ms
+[13:17:31.160] Velocità impostata a 169 ms
+[13:17:31.164] Velocità impostata a 100 ms
+[13:17:32.296] Provo uovo Rosa/Arancione, rimanenti: 16
+[13:17:32.495] Scartato uovo Viola/Verde - colori non compatibili
+[13:17:32.496] Scartato uovo Verde/Azzurro - colori non compatibili
+[13:17:32.496] Provo uovo Azzurro/Arancione, rimanenti: 15
+[13:17:32.684] Scartato uovo Viola/Verde - colori non compatibili
+[13:17:32.685] Provo uovo Verde/Azzurro, rimanenti: 14
+[13:17:32.878] Provo uovo Viola/Verde, rimanenti: 13
+[13:17:33.105] Scartato uovo Arancione/Azzurro - colori non compatibili
+[13:17:33.107] Scartato uovo Giallo/Rosa - colori non compatibili
+[13:17:33.108] Provo uovo Rosa/Verde, rimanenti: 12
+[13:17:33.313] Scartato uovo Arancione/Azzurro - colori non compatibili
+[13:17:33.313] Provo uovo Giallo/Rosa, rimanenti: 11
+[13:17:33.512] Scartato uovo Arancione/Azzurro - colori non compatibili
+[13:17:33.513] Provo uovo Giallo/Viola, rimanenti: 10
+[13:17:33.696] Scartato uovo Arancione/Azzurro - colori non compatibili
+[13:17:33.697] Scartato uovo Arancione/Azzurro - colori non compatibili
+[13:17:33.697] Provo uovo Giallo/Rosa, rimanenti: 9
+[13:17:33.899] Scartato uovo Arancione/Azzurro - colori non compatibili
+[13:17:33.900] Scartato uovo Arancione/Azzurro - colori non compatibili
+[13:17:33.900] Provo uovo Giallo/Viola, rimanenti: 8
+[13:17:34.110] Scartato uovo Arancione/Azzurro - colori non compatibili
+[13:17:34.111] Scartato uovo Arancione/Azzurro - colori non compatibili
+[13:17:34.112] Provo uovo Viola/Verde, rimanenti: 7
+[13:17:34.327] Scartato uovo Arancione/Azzurro - colori non compatibili
+[13:17:34.328] Scartato uovo Arancione/Azzurro - colori non compatibili
+[13:17:34.328] Provo uovo Azzurro/Verde, rimanenti: 6
+[13:17:34.544] Provo uovo Arancione/Azzurro, rimanenti: 5
+[13:17:34.764] Provo uovo Arancione/Azzurro, rimanenti: 4
+[13:17:34.963] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:34.965] Provo uovo Viola/Arancione, rimanenti: 3
+[13:17:35.191] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:35.191] Provo uovo Rosa/Arancione, rimanenti: 2
+[13:17:35.397] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:35.398] Scartato uovo Viola/Azzurro - colori non compatibili
+[13:17:35.398] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:35.399] Provo uovo Viola/Azzurro, rimanenti: 2
+[13:17:35.603] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:35.603] Scartato uovo Rosa/Arancione - colori non compatibili
+[13:17:35.604] Backtrack - rimozione uovo Viola/Azzurro
+[13:17:35.604] Backtrack - rimozione uovo Viola/Arancione
+[13:17:35.604] Provo uovo Rosa/Arancione, rimanenti: 3
+[13:17:35.811] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:35.829] Provo uovo Viola/Arancione, rimanenti: 2
+[13:17:36.044] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:36.045] Provo uovo Viola/Azzurro, rimanenti: 1
+[13:17:36.263] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:36.264] Backtrack - rimozione uovo Viola/Azzurro
+[13:17:36.266] Backtrack - rimozione uovo Viola/Arancione
+[13:17:36.267] Scartato uovo Viola/Azzurro - colori non compatibili
+[13:17:36.268] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:36.269] Provo uovo Viola/Azzurro, rimanenti: 3
+[13:17:36.480] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:36.481] Provo uovo Viola/Arancione, rimanenti: 2
+[13:17:36.690] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:36.690] Provo uovo Rosa/Arancione, rimanenti: 1
+[13:17:36.893] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:36.895] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:36.895] Backtrack - rimozione uovo Viola/Arancione
+[13:17:36.896] Scartato uovo Rosa/Arancione - colori non compatibili
+[13:17:36.896] Backtrack - rimozione uovo Viola/Azzurro
+[13:17:36.897] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:36.897] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:36.898] Provo uovo Viola/Arancione, rimanenti: 4
+[13:17:37.111] Provo uovo Arancione/Azzurro, rimanenti: 3
+[13:17:37.320] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:37.320] Provo uovo Rosa/Arancione, rimanenti: 2
+[13:17:37.526] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:37.527] Scartato uovo Viola/Azzurro - colori non compatibili
+[13:17:37.528] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:37.528] Provo uovo Viola/Azzurro, rimanenti: 2
+[13:17:37.742] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:37.742] Scartato uovo Rosa/Arancione - colori non compatibili
+[13:17:37.743] Backtrack - rimozione uovo Viola/Azzurro
+[13:17:37.743] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:37.744] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:37.745] Provo uovo Rosa/Arancione, rimanenti: 3
+[13:17:37.959] Provo uovo Arancione/Azzurro, rimanenti: 2
+[13:17:38.162] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:38.163] Provo uovo Viola/Azzurro, rimanenti: 1
+[13:17:38.393] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:38.393] Backtrack - rimozione uovo Viola/Azzurro
+[13:17:38.394] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:38.394] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:38.394] Scartato uovo Viola/Azzurro - colori non compatibili
+[13:17:38.394] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:38.395] Provo uovo Viola/Azzurro, rimanenti: 3
+[13:17:38.608] Provo uovo Arancione/Azzurro, rimanenti: 2
+[13:17:38.824] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:38.825] Provo uovo Rosa/Arancione, rimanenti: 1
+[13:17:39.041] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:39.042] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:39.042] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:39.042] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:39.043] Scartato uovo Rosa/Arancione - colori non compatibili
+[13:17:39.043] Backtrack - rimozione uovo Viola/Azzurro
+[13:17:39.043] Backtrack - rimozione uovo Viola/Arancione
+[13:17:39.044] Provo uovo Rosa/Arancione, rimanenti: 4
+[13:17:39.259] Provo uovo Arancione/Azzurro, rimanenti: 3
+[13:17:39.459] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:39.460] Provo uovo Viola/Arancione, rimanenti: 2
+[13:17:39.692] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:39.695] Provo uovo Viola/Azzurro, rimanenti: 1
+[13:17:39.909] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:39.909] Backtrack - rimozione uovo Viola/Azzurro
+[13:17:39.910] Backtrack - rimozione uovo Viola/Arancione
+[13:17:39.910] Provo uovo Viola/Azzurro, rimanenti: 2
+[13:17:40.110] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:40.111] Provo uovo Viola/Arancione, rimanenti: 1
+[13:17:40.340] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:40.341] Backtrack - rimozione uovo Viola/Arancione
+[13:17:40.341] Backtrack - rimozione uovo Viola/Azzurro
+[13:17:40.342] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:40.342] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:40.342] Provo uovo Viola/Arancione, rimanenti: 3
+[13:17:40.562] Provo uovo Arancione/Azzurro, rimanenti: 2
+[13:17:40.775] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:40.776] Provo uovo Viola/Azzurro, rimanenti: 1
+[13:17:40.990] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:40.992] Backtrack - rimozione uovo Viola/Azzurro
+[13:17:40.992] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:40.992] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:40.993] Provo uovo Viola/Azzurro, rimanenti: 2
+[13:17:41.177] Provo uovo Arancione/Azzurro, rimanenti: 1
+[13:17:41.393] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:41.394] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:41.394] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:41.395] Backtrack - rimozione uovo Viola/Azzurro
+[13:17:41.395] Backtrack - rimozione uovo Viola/Arancione
+[13:17:41.395] Scartato uovo Viola/Azzurro - colori non compatibili
+[13:17:41.395] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:41.396] Provo uovo Viola/Azzurro, rimanenti: 4
+[13:17:41.608] Provo uovo Arancione/Azzurro, rimanenti: 3
+[13:17:41.843] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:41.844] Provo uovo Viola/Arancione, rimanenti: 2
+[13:17:42.045] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:42.046] Provo uovo Rosa/Arancione, rimanenti: 1
+[13:17:42.259] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:42.261] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:42.262] Backtrack - rimozione uovo Viola/Arancione
+[13:17:42.262] Provo uovo Rosa/Arancione, rimanenti: 2
+[13:17:42.493] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:42.494] Provo uovo Viola/Arancione, rimanenti: 1
+[13:17:42.691] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:42.692] Backtrack - rimozione uovo Viola/Arancione
+[13:17:42.693] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:42.693] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:42.693] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:42.694] Provo uovo Viola/Arancione, rimanenti: 3
+[13:17:42.909] Provo uovo Arancione/Azzurro, rimanenti: 2
+[13:17:43.124] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:43.125] Provo uovo Rosa/Arancione, rimanenti: 1
+[13:17:43.959] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:43.973] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:43.979] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:43.982] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:43.986] Provo uovo Rosa/Arancione, rimanenti: 2
+[13:17:44.191] Provo uovo Arancione/Azzurro, rimanenti: 1
+[13:17:44.428] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:44.452] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:44.457] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:44.465] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:44.468] Backtrack - rimozione uovo Viola/Arancione
+[13:17:44.471] Scartato uovo Rosa/Arancione - colori non compatibili
+[13:17:44.475] Backtrack - rimozione uovo Viola/Azzurro
+[13:17:44.480] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:44.485] Provo uovo Arancione/Azzurro, rimanenti: 5
+[13:17:44.662] Provo uovo Arancione/Azzurro, rimanenti: 4
+[13:17:44.862] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:44.875] Provo uovo Viola/Arancione, rimanenti: 3
+[13:17:45.094] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:45.115] Provo uovo Rosa/Arancione, rimanenti: 2
+[13:17:45.309] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:45.320] Scartato uovo Viola/Azzurro - colori non compatibili
+[13:17:45.326] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:45.330] Provo uovo Viola/Azzurro, rimanenti: 2
+[13:17:45.532] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:45.539] Scartato uovo Rosa/Arancione - colori non compatibili
+[13:17:45.544] Backtrack - rimozione uovo Viola/Azzurro
+[13:17:45.547] Backtrack - rimozione uovo Viola/Arancione
+[13:17:45.551] Provo uovo Rosa/Arancione, rimanenti: 3
+[13:17:45.724] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:45.732] Provo uovo Viola/Arancione, rimanenti: 2
+[13:17:45.941] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:45.951] Provo uovo Viola/Azzurro, rimanenti: 1
+[13:17:46.160] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:46.166] Backtrack - rimozione uovo Viola/Azzurro
+[13:17:46.169] Backtrack - rimozione uovo Viola/Arancione
+[13:17:46.172] Scartato uovo Viola/Azzurro - colori non compatibili
+[13:17:46.174] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:46.176] Provo uovo Viola/Azzurro, rimanenti: 3
+[13:17:46.378] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:46.382] Provo uovo Viola/Arancione, rimanenti: 2
+[13:17:46.574] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:46.581] Provo uovo Rosa/Arancione, rimanenti: 1
+[13:17:46.789] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:46.795] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:46.798] Backtrack - rimozione uovo Viola/Arancione
+[13:17:46.800] Scartato uovo Rosa/Arancione - colori non compatibili
+[13:17:46.802] Backtrack - rimozione uovo Viola/Azzurro
+[13:17:46.804] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:46.816] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:46.817] Provo uovo Viola/Arancione, rimanenti: 4
+[13:17:47.010] Provo uovo Arancione/Azzurro, rimanenti: 3
+[13:17:47.258] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:47.271] Provo uovo Rosa/Arancione, rimanenti: 2
+[13:17:47.457] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:47.466] Scartato uovo Viola/Azzurro - colori non compatibili
+[13:17:47.470] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:47.473] Provo uovo Viola/Azzurro, rimanenti: 2
+[13:17:47.644] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:47.655] Scartato uovo Rosa/Arancione - colori non compatibili
+[13:17:47.661] Backtrack - rimozione uovo Viola/Azzurro
+[13:17:47.665] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:47.670] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:47.676] Provo uovo Rosa/Arancione, rimanenti: 3
+[13:17:47.891] Provo uovo Arancione/Azzurro, rimanenti: 2
+[13:17:48.092] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:48.105] Provo uovo Viola/Azzurro, rimanenti: 1
+[13:17:48.292] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:48.302] Backtrack - rimozione uovo Viola/Azzurro
+[13:17:48.308] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:48.314] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:48.342] Scartato uovo Viola/Azzurro - colori non compatibili
+[13:17:48.346] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:48.353] Provo uovo Viola/Azzurro, rimanenti: 3
+[13:17:48.540] Provo uovo Arancione/Azzurro, rimanenti: 2
+[13:17:48.768] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:48.783] Provo uovo Rosa/Arancione, rimanenti: 1
+[13:17:48.974] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:48.994] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:49.011] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:49.017] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:49.022] Scartato uovo Rosa/Arancione - colori non compatibili
+[13:17:49.026] Backtrack - rimozione uovo Viola/Azzurro
+[13:17:49.034] Backtrack - rimozione uovo Viola/Arancione
+[13:17:49.038] Provo uovo Rosa/Arancione, rimanenti: 4
+[13:17:49.258] Provo uovo Arancione/Azzurro, rimanenti: 3
+[13:17:49.460] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:49.474] Provo uovo Viola/Arancione, rimanenti: 2
+[13:17:49.692] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:49.704] Provo uovo Viola/Azzurro, rimanenti: 1
+[13:17:49.909] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:49.921] Backtrack - rimozione uovo Viola/Azzurro
+[13:17:49.930] Backtrack - rimozione uovo Viola/Arancione
+[13:17:49.956] Provo uovo Viola/Azzurro, rimanenti: 2
+[13:17:50.142] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:50.152] Provo uovo Viola/Arancione, rimanenti: 1
+[13:17:50.358] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:50.370] Backtrack - rimozione uovo Viola/Arancione
+[13:17:50.377] Backtrack - rimozione uovo Viola/Azzurro
+[13:17:50.380] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:50.383] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:50.386] Provo uovo Viola/Arancione, rimanenti: 3
+[13:17:50.589] Provo uovo Arancione/Azzurro, rimanenti: 2
+[13:17:50.806] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:50.821] Provo uovo Viola/Azzurro, rimanenti: 1
+[13:17:51.039] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:51.052] Backtrack - rimozione uovo Viola/Azzurro
+[13:17:51.057] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:51.061] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:51.065] Provo uovo Viola/Azzurro, rimanenti: 2
+[13:17:51.275] Provo uovo Arancione/Azzurro, rimanenti: 1
+[13:17:51.507] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:51.519] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:51.524] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:51.528] Backtrack - rimozione uovo Viola/Azzurro
+[13:17:51.531] Backtrack - rimozione uovo Viola/Arancione
+[13:17:51.534] Scartato uovo Viola/Azzurro - colori non compatibili
+[13:17:51.537] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:51.540] Provo uovo Viola/Azzurro, rimanenti: 4
+[13:17:51.741] Provo uovo Arancione/Azzurro, rimanenti: 3
+[13:17:51.942] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:51.954] Provo uovo Viola/Arancione, rimanenti: 2
+[13:17:52.158] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:52.178] Provo uovo Rosa/Arancione, rimanenti: 1
+[13:17:52.373] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:52.386] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:52.393] Backtrack - rimozione uovo Viola/Arancione
+[13:17:52.396] Provo uovo Rosa/Arancione, rimanenti: 2
+[13:17:52.592] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:52.608] Provo uovo Viola/Arancione, rimanenti: 1
+[13:17:52.808] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:52.821] Backtrack - rimozione uovo Viola/Arancione
+[13:17:52.829] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:52.833] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:52.836] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:52.850] Provo uovo Viola/Arancione, rimanenti: 3
+[13:17:53.040] Provo uovo Arancione/Azzurro, rimanenti: 2
+[13:17:53.274] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:53.285] Provo uovo Rosa/Arancione, rimanenti: 1
+[13:17:53.491] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:53.500] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:53.512] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:53.518] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:53.521] Provo uovo Rosa/Arancione, rimanenti: 2
+[13:17:53.708] Provo uovo Arancione/Azzurro, rimanenti: 1
+[13:17:53.927] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:53.935] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:53.942] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:53.946] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:53.949] Backtrack - rimozione uovo Viola/Arancione
+[13:17:53.953] Scartato uovo Rosa/Arancione - colori non compatibili
+[13:17:53.956] Backtrack - rimozione uovo Viola/Azzurro
+[13:17:53.960] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:53.963] Provo uovo Giallo/Verde, rimanenti: 5
+[13:17:54.138] Scartato uovo Arancione/Azzurro - colori non compatibili
+[13:17:54.148] Scartato uovo Arancione/Azzurro - colori non compatibili
+[13:17:54.158] Scartato uovo Viola/Arancione - colori non compatibili
+[13:17:54.163] Scartato uovo Rosa/Arancione - colori non compatibili
+[13:17:54.170] Scartato uovo Viola/Azzurro - colori non compatibili
+[13:17:54.209] Backtrack - rimozione uovo Giallo/Verde
+[13:17:54.216] Scartato uovo Viola/Arancione - colori non compatibili
+[13:17:54.220] Scartato uovo Rosa/Arancione - colori non compatibili
+[13:17:54.223] Provo uovo Viola/Azzurro, rimanenti: 5
+[13:17:54.424] Provo uovo Arancione/Azzurro, rimanenti: 4
+[13:17:54.624] Provo uovo Arancione/Azzurro, rimanenti: 3
+[13:17:54.840] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:54.855] Provo uovo Viola/Arancione, rimanenti: 2
+[13:17:55.055] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:55.068] Provo uovo Rosa/Arancione, rimanenti: 1
+[13:17:55.272] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:55.285] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:55.306] Backtrack - rimozione uovo Viola/Arancione
+[13:17:55.310] Provo uovo Rosa/Arancione, rimanenti: 2
+[13:17:55.489] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:55.501] Provo uovo Viola/Arancione, rimanenti: 1
+[13:17:55.706] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:55.720] Backtrack - rimozione uovo Viola/Arancione
+[13:17:55.727] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:55.731] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:55.734] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:55.737] Provo uovo Viola/Arancione, rimanenti: 3
+[13:17:55.939] Provo uovo Arancione/Azzurro, rimanenti: 2
+[13:17:56.155] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:56.188] Provo uovo Rosa/Arancione, rimanenti: 1
+[13:17:56.374] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:56.391] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:56.396] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:56.400] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:56.411] Provo uovo Rosa/Arancione, rimanenti: 2
+[13:17:56.605] Provo uovo Arancione/Azzurro, rimanenti: 1
+[13:17:56.791] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:56.803] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:56.809] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:56.812] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:56.815] Backtrack - rimozione uovo Viola/Arancione
+[13:17:56.837] Provo uovo Rosa/Arancione, rimanenti: 3
+[13:17:57.039] Provo uovo Arancione/Azzurro, rimanenti: 2
+[13:17:57.255] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:57.268] Provo uovo Viola/Arancione, rimanenti: 1
+[13:17:57.472] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:57.487] Backtrack - rimozione uovo Viola/Arancione
+[13:17:57.493] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:57.497] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:57.500] Provo uovo Viola/Arancione, rimanenti: 2
+[13:17:57.703] Provo uovo Arancione/Azzurro, rimanenti: 1
+[13:17:57.920] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:57.932] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:57.942] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:57.946] Backtrack - rimozione uovo Viola/Arancione
+[13:17:57.950] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:57.953] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:57.957] Provo uovo Arancione/Azzurro, rimanenti: 4
+[13:17:58.152] Provo uovo Arancione/Azzurro, rimanenti: 3
+[13:17:58.354] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:58.364] Provo uovo Viola/Arancione, rimanenti: 2
+[13:17:58.569] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:58.579] Provo uovo Rosa/Arancione, rimanenti: 1
+[13:17:58.786] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:58.800] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:58.824] Backtrack - rimozione uovo Viola/Arancione
+[13:17:58.828] Provo uovo Rosa/Arancione, rimanenti: 2
+[13:17:59.035] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:59.049] Provo uovo Viola/Arancione, rimanenti: 1
+[13:17:59.230] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:59.240] Backtrack - rimozione uovo Viola/Arancione
+[13:17:59.245] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:59.248] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:59.251] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:59.255] Provo uovo Viola/Arancione, rimanenti: 3
+[13:17:59.452] Provo uovo Arancione/Azzurro, rimanenti: 2
+[13:17:59.653] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:59.690] Provo uovo Rosa/Arancione, rimanenti: 1
+[13:17:59.888] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:59.903] Backtrack - rimozione uovo Rosa/Arancione
+[13:17:59.909] Backtrack - rimozione uovo Arancione/Azzurro
+[13:17:59.913] Scartato uovo Giallo/Verde - colori non compatibili
+[13:17:59.916] Provo uovo Rosa/Arancione, rimanenti: 2
+[13:18:00.089] Provo uovo Arancione/Azzurro, rimanenti: 1
+[13:18:00.303] Scartato uovo Giallo/Verde - colori non compatibili
+[13:18:00.313] Backtrack - rimozione uovo Arancione/Azzurro
+[13:18:00.317] Scartato uovo Giallo/Verde - colori non compatibili
+[13:18:00.324] Backtrack - rimozione uovo Rosa/Arancione
+[13:18:00.328] Backtrack - rimozione uovo Viola/Arancione
+[13:18:00.338] Provo uovo Rosa/Arancione, rimanenti: 3
+[13:18:00.538] Provo uovo Arancione/Azzurro, rimanenti: 2
+[13:18:00.722] Scartato uovo Giallo/Verde - colori non compatibili
+[13:18:00.736] Provo uovo Viola/Arancione, rimanenti: 1
+[13:18:00.921] Scartato uovo Giallo/Verde - colori non compatibili
+[13:18:00.935] Backtrack - rimozione uovo Viola/Arancione
+[13:18:00.941] Backtrack - rimozione uovo Arancione/Azzurro
+[13:18:00.945] Scartato uovo Giallo/Verde - colori non compatibili
+[13:18:00.948] Provo uovo Viola/Arancione, rimanenti: 2
+[13:18:01.139] Provo uovo Arancione/Azzurro, rimanenti: 1
+[13:18:01.350] Scartato uovo Giallo/Verde - colori non compatibili
+[13:18:01.362] Backtrack - rimozione uovo Arancione/Azzurro
+[13:18:01.380] Scartato uovo Giallo/Verde - colori non compatibili
+[13:18:01.384] Backtrack - rimozione uovo Viola/Arancione
+[13:18:01.388] Backtrack - rimozione uovo Rosa/Arancione
+[13:18:01.391] Backtrack - rimozione uovo Arancione/Azzurro
+[13:18:01.394] Scartato uovo Giallo/Verde - colori non compatibili
+[13:18:01.397] Provo uovo Viola/Arancione, rimanenti: 4
+[13:18:01.581] Velocità impostata a 135 ms
+[13:18:01.592] Velocità impostata a 204 ms
+[13:18:01.598] Velocità impostata a 238 ms
+[13:18:01.602] Provo uovo Arancione/Azzurro, rimanenti: 3
+[13:18:01.620] Velocità impostata a 307 ms
+[13:18:01.623] Velocità impostata a 342 ms
+[13:18:01.657] Velocità impostata a 514 ms
+[13:18:01.663] Velocità impostata a 549 ms
+[13:18:01.668] Velocità impostata a 583 ms
+[13:18:01.676] Velocità impostata a 652 ms
+[13:18:01.684] Velocità impostata a 687 ms
+[13:18:01.696] Velocità impostata a 721 ms
+[13:18:01.703] Velocità impostata a 756 ms
+[13:18:01.723] Velocità impostata a 790 ms
+[13:18:01.736] Velocità impostata a 825 ms
+[13:18:01.743] Velocità impostata a 860 ms
+[13:18:01.747] Velocità impostata a 894 ms
+[13:18:01.767] Velocità impostata a 998 ms
+[13:18:01.809] Velocità impostata a 1239 ms
+[13:18:01.811] Velocità impostata a 1274 ms
+[13:18:01.819] Velocità impostata a 1343 ms
+[13:18:01.827] Velocità impostata a 1377 ms
+[13:18:01.831] Velocità impostata a 1412 ms
+[13:18:01.839] Velocità impostata a 1446 ms
+[13:18:01.847] Velocità impostata a 1481 ms
+[13:18:01.876] Velocità impostata a 1515 ms
+[13:18:01.883] Velocità impostata a 1550 ms
+[13:18:01.888] Velocità impostata a 1585 ms
+[13:18:01.891] Velocità impostata a 1619 ms
+[13:18:01.895] Velocità impostata a 1654 ms
+[13:18:01.922] Velocità impostata a 1723 ms
+[13:18:02.655] Provo uovo Arancione/Azzurro, rimanenti: 2
+[13:18:02.909] Velocità impostata a 1757 ms
+[13:18:02.992] Velocità impostata a 1792 ms
+[13:18:03.012] Velocità impostata a 1826 ms
+[13:18:03.020] Velocità impostata a 1861 ms
+[13:18:03.032] Velocità impostata a 1895 ms
+[13:18:03.040] Velocità impostata a 1930 ms
+[13:18:03.048] Velocità impostata a 1964 ms
+[13:18:03.052] Velocità impostata a 1999 ms
+[13:18:03.056] Velocità impostata a 2033 ms
+[13:18:03.064] Velocità impostata a 2068 ms
+[13:18:03.074] Velocità impostata a 2102 ms
+[13:18:03.079] Velocità impostata a 2137 ms
+[13:18:03.091] Velocità impostata a 2171 ms
+[13:18:05.593] Velocità impostata a 1871 ms
+[13:18:05.724] Velocità impostata a 1571 ms
+[13:18:05.737] Scartato uovo Giallo/Verde - colori non compatibili
+[13:18:05.742] Provo uovo Rosa/Arancione, rimanenti: 1
+[13:18:05.768] Velocità impostata a 1271 ms
+[13:18:05.771] Velocità impostata a 971 ms
+[13:18:05.834] Velocità impostata a 671 ms
+[13:18:05.913] Velocità impostata a 371 ms
+[13:18:06.076] Velocità impostata a 100 ms
+[13:18:06.685] Scartato uovo Giallo/Verde - colori non compatibili
+[13:18:06.690] Backtrack - rimozione uovo Rosa/Arancione
+[13:18:06.694] Backtrack - rimozione uovo Arancione/Azzurro
+[13:18:06.697] Scartato uovo Giallo/Verde - colori non compatibili
+[13:18:06.700] Provo uovo Rosa/Arancione, rimanenti: 2
+[13:18:06.902] Provo uovo Arancione/Azzurro, rimanenti: 1
+[13:18:07.119] Scartato uovo Giallo/Verde - colori non compatibili
+[13:18:07.126] Backtrack - rimozione uovo Arancione/Azzurro
+[13:18:07.130] Scartato uovo Giallo/Verde - colori non compatibili
+[13:18:07.133] Backtrack - rimozione uovo Rosa/Arancione
+[13:18:07.137] Backtrack - rimozione uovo Arancione/Azzurro
+[13:18:07.139] Provo uovo Arancione/Azzurro, rimanenti: 3
+[13:18:07.334] Provo uovo Arancione/Azzurro, rimanenti: 2
+[13:18:07.535] Scartato uovo Giallo/Verde - colori non compatibili
+[13:18:07.542] Provo uovo Rosa/Arancione, rimanenti: 1
+[13:18:07.750] Scartato uovo Giallo/Verde - colori non compatibili
+[13:18:07.755] Backtrack - rimozione uovo Rosa/Arancione
+[13:18:07.758] Backtrack - rimozione uovo Arancione/Azzurro
+[13:18:07.763] Scartato uovo Giallo/Verde - colori non compatibili
+[13:18:07.766] Provo uovo Rosa/Arancione, rimanenti: 2
+[13:18:07.967] Provo uovo Arancione/Azzurro, rimanenti: 1
+[13:18:08.168] Scartato uovo Giallo/Verde - colori non compatibili
+[13:18:08.173] Backtrack - rimozione uovo Arancione/Azzurro
+[13:18:08.178] Scartato uovo Giallo/Verde - colori non compatibili
+[13:18:08.201] Backtrack - rimozione uovo Rosa/Arancione
+[13:18:08.203] Backtrack - rimozione uovo Arancione/Azzurro
+[13:18:08.204] Scartato uovo Giallo/Verde - colori non compatibili
+[13:18:08.205] Provo uovo Rosa/Arancione, rimanenti: 3
+[13:18:08.385] Provo uovo Arancione/Azzurro, rimanenti: 2
+[13:18:08.583] Provo uovo Arancione/Azzurro, rimanenti: 1
+[13:18:08.801] Scartato uovo Giallo/Verde - colori non compatibili
+[13:18:08.807] Backtrack - rimozione uovo Arancione/Azzurro
+[13:18:08.810] Scartato uovo Giallo/Verde - colori non compatibili
+[13:18:08.813] Backtrack - rimozione uovo Arancione/Azzurro
+[13:18:08.815] Provo uovo Arancione/Azzurro, rimanenti: 2
+[13:18:09.002] Provo uovo Arancione/Azzurro, rimanenti: 1
+[13:18:09.083] Velocità impostata a 376 ms
+[13:18:09.085] Velocità impostata a 411 ms
+[13:18:09.089] Velocità impostata a 445 ms
+[13:18:09.097] Velocità impostata a 480 ms
+[13:18:09.101] Velocità impostata a 514 ms
+[13:18:09.105] Velocità impostata a 549 ms
+[13:18:09.125] Velocità impostata a 652 ms
+[13:18:09.137] Velocità impostata a 687 ms
+[13:18:09.442] Velocità impostata a 721 ms
+[13:18:09.482] Velocità impostata a 756 ms
+[13:18:09.488] Velocità impostata a 790 ms
+[13:18:09.493] Velocità impostata a 825 ms
+[13:18:09.512] Velocità impostata a 998 ms
+[13:18:09.514] Velocità impostata a 1067 ms
+[13:18:09.522] Velocità impostata a 1101 ms
+[13:18:09.525] Velocità impostata a 1136 ms
+[13:18:09.529] Velocità impostata a 1170 ms
+[13:18:09.534] Velocità impostata a 1205 ms
+[13:18:09.538] Velocità impostata a 1239 ms
+[13:18:09.541] Velocità impostata a 1274 ms
+[13:18:09.546] Velocità impostata a 1308 ms
+[13:18:09.554] Velocità impostata a 1377 ms
+[13:18:09.562] Velocità impostata a 1412 ms
+[13:18:09.574] Velocità impostata a 1446 ms
+[13:18:09.590] Velocità impostata a 1481 ms
+[13:18:09.597] Velocità impostata a 1515 ms
+[13:18:09.622] Velocità impostata a 1550 ms
+[13:18:09.630] Velocità impostata a 1585 ms
+[13:18:09.639] Velocità impostata a 1619 ms
+[13:18:09.644] Velocità impostata a 1654 ms
+[13:18:09.654] Velocità impostata a 1688 ms
+[13:18:09.666] Velocità impostata a 1723 ms
+[13:18:09.669] Scartato uovo Giallo/Verde - colori non compatibili
+[13:18:09.670] Backtrack - rimozione uovo Arancione/Azzurro
+[13:18:09.672] Scartato uovo Giallo/Verde - colori non compatibili
+[13:18:09.673] Backtrack - rimozione uovo Arancione/Azzurro
+[13:18:09.682] Scartato uovo Giallo/Verde - colori non compatibili
+[13:18:09.683] Backtrack - rimozione uovo Rosa/Arancione
+[13:18:09.686] Backtrack - rimozione uovo Viola/Arancione
+[13:18:09.687] Scartato uovo Rosa/Arancione - colori non compatibili
+[13:18:09.689] Backtrack - rimozione uovo Viola/Azzurro
+[13:18:09.690] Backtrack - rimozione uovo Azzurro/Verde
+[13:18:09.692] Provo uovo Giallo/Verde, rimanenti: 6
+[13:18:09.705] Velocità impostata a 1895 ms
+[13:18:09.709] Velocità impostata a 1930 ms
+[13:18:09.737] Velocità impostata a 1964 ms
+[13:18:09.753] Velocità impostata a 1999 ms
+[13:18:09.757] Velocità impostata a 2033 ms
+[13:18:09.761] Velocità impostata a 2068 ms
+[13:18:09.769] Velocità impostata a 2102 ms
+[13:18:09.773] Velocità impostata a 2137 ms
+[13:18:09.781] Velocità impostata a 2171 ms
+[13:18:09.790] Velocità impostata a 2206 ms
+[13:18:09.802] Velocità impostata a 2240 ms
+[13:18:09.818] Velocità impostata a 2275 ms
+[13:18:09.870] Velocità impostata a 2310 ms
+[13:18:09.882] Velocità impostata a 2344 ms
+[13:18:09.902] Velocità impostata a 2379 ms
+[13:18:09.919] Velocità impostata a 2413 ms
+[13:18:09.951] Velocità impostata a 2448 ms
+[13:18:09.990] Velocità impostata a 2482 ms
+[13:18:10.006] Velocità impostata a 2517 ms
+[13:18:10.018] Velocità impostata a 2551 ms
+[13:18:10.026] Velocità impostata a 2586 ms
+[13:18:10.647] Velocità impostata a 2551 ms
+[13:18:10.654] Velocità impostata a 2517 ms
+[13:18:10.657] Velocità impostata a 2482 ms
+[13:18:10.662] Velocità impostata a 2413 ms
+[13:18:10.666] Velocità impostata a 2344 ms
+[13:18:10.672] Velocità impostata a 2240 ms
+[13:18:10.684] Velocità impostata a 1999 ms
+[13:18:10.686] Velocità impostata a 1895 ms
+[13:18:10.690] Velocità impostata a 1826 ms
+[13:18:10.693] Velocità impostata a 1757 ms
+[13:18:10.697] Velocità impostata a 1654 ms
+[13:18:10.702] Velocità impostata a 1585 ms
+[13:18:10.711] Velocità impostata a 1412 ms
+[13:18:10.714] Velocità impostata a 1308 ms
+[13:18:10.717] Velocità impostata a 1205 ms
+[13:18:10.722] Velocità impostata a 1136 ms
+[13:18:10.726] Velocità impostata a 1067 ms
+[13:18:10.730] Velocità impostata a 1032 ms
+[13:18:10.738] Velocità impostata a 998 ms
+[13:18:10.751] Velocità impostata a 963 ms
+[13:18:10.758] Velocità impostata a 929 ms
+[13:18:10.770] Velocità impostata a 894 ms
+[13:18:10.782] Velocità impostata a 860 ms
+[13:18:10.790] Velocità impostata a 790 ms
+[13:18:10.801] Velocità impostata a 756 ms
+[13:18:10.803] Velocità impostata a 687 ms
+[13:18:10.805] Velocità impostata a 652 ms
+[13:18:10.810] Velocità impostata a 618 ms
+[13:18:10.813] Velocità impostata a 549 ms
+[13:18:10.821] Velocità impostata a 514 ms
+[13:18:10.834] Velocità impostata a 376 ms
+[13:18:10.837] Velocità impostata a 342 ms
+[13:18:10.841] Velocità impostata a 307 ms
+[13:18:10.845] Velocità impostata a 273 ms
+[13:18:10.857] Velocità impostata a 238 ms
+[13:18:10.865] Velocità impostata a 204 ms
+[13:18:10.885] Velocità impostata a 100 ms
+[13:18:13.182] Scartato uovo Arancione/Azzurro - colori non compatibili
+[13:18:13.187] Scartato uovo Arancione/Azzurro - colori non compatibili
+[13:18:13.191] Provo uovo Azzurro/Verde, rimanenti: 5
+[13:18:13.417] Provo uovo Arancione/Azzurro, rimanenti: 4
+[13:18:13.630] Provo uovo Arancione/Azzurro, rimanenti: 3
+[13:18:13.847] Provo uovo Viola/Arancione, rimanenti: 2
+[13:18:14.063] Provo uovo Rosa/Arancione, rimanenti: 1
+[13:18:14.264] Scartato uovo Viola/Azzurro - colori non compatibili
+[13:18:14.269] Backtrack - rimozione uovo Rosa/Arancione
+[13:18:14.273] Provo uovo Viola/Azzurro, rimanenti: 1
+[13:18:14.496] Scartato uovo Rosa/Arancione - colori non compatibili
+[13:18:14.521] Backtrack - rimozione uovo Viola/Azzurro
+[13:18:14.523] Backtrack - rimozione uovo Viola/Arancione
+[13:18:14.524] Provo uovo Rosa/Arancione, rimanenti: 2
+[13:18:14.718] Provo uovo Viola/Arancione, rimanenti: 1
+[13:18:14.913] Provo uovo Viola/Azzurro, rimanenti: 0
+[13:18:15.130] Soluzione trovata! Tutte le 18 uova piazzate correttamente
+[13:18:15.153] Sequenza completata! Movimenti: 158, Backtrack: 140
